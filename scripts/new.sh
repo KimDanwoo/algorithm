@@ -8,11 +8,11 @@ if [ "$1" = "" ]; then
 fi
 
 touch "$filename.js"
-echo "function solution() {" >> "$filename".js
+echo "function solution(n) {" >> "$filename".js
 echo "  const result = 0" >> "$filename".js
 echo "}" >> "$filename".js
 echo "" >> "$filename".js
-echo "console.log(solution())" >> "$filename".js
+echo "console.log(solution(n))" >> "$filename".js
 echo "/**" >>"$filename".js
 echo " * 풀이 시간 : " >>"$filename".js
 echo " *" >>"$filename".js
