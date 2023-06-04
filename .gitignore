@@ -1,1 +1,4 @@
 node_modules
+.prettierrc
+yarn.lock
+scripts
