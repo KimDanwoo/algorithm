@@ -16,7 +16,7 @@ function solution(progresses, speeds) {
     }
   }
   answer.push(count)
-  return answer
+  return 
 }
 
 console.log(solution([95, 90, 99, 99, 80, 99], [1, 1, 1, 1, 1, 1]))
