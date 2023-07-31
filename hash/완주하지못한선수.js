@@ -35,10 +35,8 @@ console.log(
  * 풀이 시간 :
  *
  * 풀이 과정 :
- * hash.get()
- * hash.set()
- * hash.set()
- * 및 hash다루기 기본을 파악할 수 있는 문제였다.
+ * hash 문제 풀이 추가, 시간복잡도 문제가 있어서
+ * for문을 나누고 key값을 바로 리턴하며 효율성을 잡았다.
  *
  * 풀이 참고 및 Learning :
  */
