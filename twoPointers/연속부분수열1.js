@@ -1,7 +1,7 @@
-function solution(n, m, arr) {
+function solution(m, arr) {
   let answer = 0,
-    lt = 0
-  sum = 0
+    lt = 0,
+    sum = 0
   for (rt = 0; rt < arr.length; rt++) {
     sum += arr[rt]
     if (sum === m) answer++
@@ -13,7 +13,7 @@ function solution(n, m, arr) {
   return answer
 }
 
-console.log(solution(8, 6, [1, 2, 1, 3, 1, 1, 1, 2]))
+console.log(solution(6, [1, 2, 1, 3, 1, 1, 1, 2]))
 /**
  * 풀이 시간 : 5:40~ 6:00
  *

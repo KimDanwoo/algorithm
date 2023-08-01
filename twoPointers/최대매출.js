@@ -1,7 +1,9 @@
 function solution(n, arr) {
   let result = 0,
     hap = 0
-  for (let i = 0; i < n; i++) hap += arr[i]
+  for (let i = 0; i < n; i++) {
+    hap += arr[i]
+  }
   for (let i = n; i < arr.length; i++) {
     hap += arr[i] - arr[i - n]
     result = Math.max(result, hap)
