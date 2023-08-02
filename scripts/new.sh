@@ -9,7 +9,7 @@ fi
 
 touch "$filename.js"
 echo "function solution(n) {" >> "$filename".js
-echo "  const result = 0" >> "$filename".js
+echo "  let anser = 0" >> "$filename".js
 echo "}" >> "$filename".js
 echo "" >> "$filename".js
 echo "console.log(solution(n))" >> "$filename".js
