@@ -18,7 +18,7 @@ function solution(string, t) {
       stringHash.set(string[i], 1)
     }
   }
-  for (let rightKey = len; rightKey < s.length; rightKey++) {
+  for (let rightKey = len; rightKey < string.length; rightKey++) {
     if (stringHash.has(string[rightKey])) {
       stringHash.set(string[rightKey], stringHash.get(string[rightKey] + 1))
     } else {
@@ -48,7 +48,7 @@ function compareMap(map1, map2) {
   return true
 }
 
-console.log(solution('bacaAacba', 'abc'))
+console.log(solution('bacaAacbaccba', 'abc'))
 /**
  * 풀이 시간 : 8:00 ~ 8:45
  *
