@@ -1,7 +1,7 @@
-function isPrime(n) {
-  if (n < 2) return false
-  for (let i = 2; i * i <= n; i++) {
-    if (n % i === 0) return false
+function isPrime(number) {
+  if (number < 2) return false
+  for (let i = 2; i * i <= number; i++) {
+    if (number % i === 0) return false
   }
   return true
 }
@@ -26,7 +26,7 @@ console.log(solution([1, 2, 7, 6, 4])) // Output: 4
 /**
  * 풀이 시간 :
  *
- * 풀이 과정 : 
+ * 풀이 과정 :
  *
  * 풀이 참고 및 Learning :
  */
